@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+   db:
+    image: mysql
+    container_name: library
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+   
